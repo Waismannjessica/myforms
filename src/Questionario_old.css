@@ -1,0 +1,71 @@
+/* Define uma cor de fundo clara para a página */
+.App2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  body {
+    background-color: #6993afe8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Centraliza o formulário no meio da página */
+  .quest-container {
+    background-color: #ecf2f6;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px 45px;
+    text-align: left;
+  }
+  
+  /* Estilo para os campos do formulário */
+  .forms-group {
+    margin-bottom: 15px;
+  }
+  
+  .forms-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .forms-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Estilo para o botão de envio */
+  button2 {
+    background-color: #4c16df;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  button2:hover {
+    background-color: #1216f0bd;
+  }
+  
+  /* Estilo para o título do formulário */
+  h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  

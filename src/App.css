@@ -1,0 +1,54 @@
+/* src/App.css */
+
+.App {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background-image: url('C:\Users\jessica.waismann\Desktop\Harve\meu-formulario\public\floresta.jpg'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover;
+  background-position: center;
+  padding-left: 280px
+}
+
+.form-container {
+  background-color: rgba(245, 245, 220, 0.9); /* cor marrom claro com transparência */
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 10px;
+
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+button {
+  padding: 10px 12px;
+  background-color: #886305;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #52450e;
+}
+
+

@@ -1,0 +1,64 @@
+.App2 {
+  display: flex;
+  justify-content: center;
+  background-image: url('C:\Users\jessica.waismann\Desktop\Harve\meu-formulario\public\shaman.jpg');
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  overflow-y: auto; /* Adiciona barra de rolagem vertical */
+}
+
+body {
+  background-color: #6993afe8;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.quest-container {
+  background-color: #ecf2f6;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px; /* Redefine a largura máxima */
+  width: 100%; /* Garante que o formulário ocupe toda a largura disponível */
+  margin: 20px;
+  padding: 20px 45px;
+  text-align: left;
+  overflow-y: auto; /* Adiciona barra de rolagem interna */
+  max-height: 80vh; /* Define uma altura máxima */
+}
+
+.forms-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.forms-group label {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: #4c16df;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #1216f0bd;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  width: 100%; /* Para o título ocupar toda a largura */
+}
